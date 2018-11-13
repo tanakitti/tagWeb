@@ -1,0 +1,389 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    padding: 40px;
+    min-height: 100%;
+}
+
+.body2 {
+    padding: 40px;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+    text-align: center;
+}
+
+.cover {
+    height: 100%;
+    width: 50%;
+    background: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.login-form {
+    display: flex;
+    margin: 0;
+}
+
+.login-form>* {
+    margin-left: 5px;
+}
+
+.text-cover {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.cover-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topic {
+    text-align: center;
+}
+
+.top3-order {
+    padding: 20px;
+    font: 20px;
+    font-weight: bold;
+}
+
+.top3 {
+    margin: 30px 0 30px 0;
+    border: black solid 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    height: 300px;
+}
+
+.top3-profile {
+    height: 100px;
+    width: 100px;
+}
+
+.top3-score {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.score {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.profile {
+    height: 70px;
+    width: 70px;
+    background: url(../img/rank/png/chevron-1.png);
+    background-size: cover;
+}
+
+.highscore {
+    margin: 30px 0 30px 0;
+    height: 50px;
+    border: black solid 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cover-link {
+    font-size: 20px;
+}
+
+.sub-topic {
+    font-weight: bold;
+    margin: 10px 0px 10px 0px;
+}
+
+.type-form input {
+    margin: 10px;
+}
+
+.type-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-form>*,
+.register-form>button {
+    margin: 15px 0px 0px 0px;
+    width: 60%;
+}
+
+.center {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.example-step {
+    margin: 10px 0 10px 0;
+    max-width: 80%;
+    height: auto;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.toturial {
+    margin-top: 40px;
+}
+
+.step {
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.step-topic {
+    text-decoration: underline;
+}
+
+.step-detail {
+    margin-left: 50px;
+}
+
+.example-step-small {
+    margin: 10px 0 10px 0;
+    max-width: 50%;
+    height: auto;
+    padding: 30px;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+.unfix {
+    margin-top: 40px;
+}
+
+.rank-pic {
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.score-tu {
+    display: flex;
+    align-items: center;
+}
+
+.rank-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rank {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.seemore {
+    margin: 10px 0 10px 0;
+}
+
+#myDiv {
+    margin: 10px 0 10px 0;
+}
+
+.inline * {
+    display: inline;
+}
+
+.inline b {
+    margin-right: 10px;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card-group {
+    margin-top: 20px;
+}
+
+.result-username,
+.result-password {
+    color: red;
+    text-align: end;
+}
+
+.detail {
+    display: flex;
+}
+
+.border {
+    border: black solid 1px;
+    padding: 15px;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.pdf {
+    text-align: center;
+    margin: 80px;
+}
+
+.id {
+    display: flex;
+    flex-direction: column;
+}
+
+.cc {
+    margin: 20px;
+}
+
+.cc>* {
+    padding: 10px;
+}
+
+.scc_id {
+    text-align: center;
+}
+
+.person-topic {
+    display: flex;
+}
+
+.right-10px {
+    margin-right: 10px;
+}
+
+.listtag {
+    margin: 0 15px 0 15px;
+    font-size: 30px;
+}
+
+.topic-taglist {
+    font-size: 30px;
+}
+
+
+/*****************
+    rank-pic
+*****************/
+
+.chevron0 {
+    background: url(../img/rank/png/chevron-0.png);
+    background-size: cover;
+}
+
+.chevron1 {
+    background: url(../img/rank/png/chevron-1.png);
+    background-size: cover;
+}
+
+.chevron2 {
+    background: url(../img/rank/png/chevron-2.png);
+    background-size: cover;
+}
+
+.chevron3 {
+    background: url(../img/rank/png/chevron-3.png);
+    background-size: cover;
+}
+
+.chevron4 {
+    background: url(../img/rank/png/chevron-4.png);
+    background-size: cover;
+}
+
+.chevron5 {
+    background: url(../img/rank/png/chevron-5.png);
+    background-size: cover;
+}
+
+.chevron6 {
+    background: url(../img/rank/png/chevron-6.png);
+    background-size: cover;
+}
+
+.chevron7 {
+    background: url(../img/rank/png/chevron-7.png);
+    background-size: cover;
+}
+
+.chevron8 {
+    background: url(../img/rank/png/chevron-8.png);
+    background-size: cover;
+}
+
+.chevron9 {
+    background: url(../img/rank/png/chevron-9.png);
+    background-size: cover;
+}
+
+.chevron10 {
+    background: url(../img/rank/png/chevron-10.png);
+    background-size: cover;
+}
+
+.chevron11 {
+    background: url(../img/rank/png/chevron-11.png);
+    background-size: cover;
+}
+
+.chevron12 {
+    background: url(../img/rank/png/chevron-12.png);
+    background-size: cover;
+}
+
+.chevron13 {
+    background: url(../img/rank/png/chevron-13.png);
+    background-size: cover;
+}
+
+.chevron14 {
+    background: url(../img/rank/png/chevron-14.png);
+    background-size: cover;
+}
+
+.cystal {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    background: url(../img/minerals.png);
+    background-size: cover;
+}
